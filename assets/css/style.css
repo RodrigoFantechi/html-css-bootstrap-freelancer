@@ -1,0 +1,96 @@
+
+/************  
+DEBUG
+************/
+
+/* MACROAREE */
+.debug header,.debug footer {  
+    background-color: red;
+}
+.debug  .debug_jumbotron{
+    background-color: blue;
+}
+.debug .debug_portfolio{
+    background-color: aqua; 
+}
+.debug .debug_about{
+    background-color: lightblue;
+}
+.debug .debug_contact_me{
+    background-color: lightcoral;
+}
+.debug .debug_info{
+    background-color: rgb(77, 158, 101);
+}
+
+
+/* HEADER */
+
+.debug header .debug_container{
+    height: 50px;
+    background-color: blue;
+}
+
+.debug header .debug_col{
+    height: 50px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+/* MAIN */
+
+/* jumboyton */
+.debug .debug_jumbotron .debug_container{
+    background-color: purple;
+    height: 350px;
+}
+
+/* portfolio */
+.debug .debug_portfolio .debug_container{
+    background-color: lightcoral;
+}
+.debug  .debug_portfolio .title_portfolio{
+    height: 50px;
+    background-color: brown;
+}
+.debug  .debug_portfolio .debug_row,.debug  .debug_portfolio .debug_col { 
+    background-color: blue;
+}
+.debug  .debug_portfolio .debug_col .test{
+    background-color: red;
+    height: 100px;
+}
+/* about */
+.debug .debug_about .debug_container{
+    background-color: aquamarine;
+}
+.debug  .debug_about .title_about,.debug  .debug_about .lu_buttone{
+    height: 50px;
+    background-color: brown;
+}
+.debug  .debug_about .debug_col{
+    background-color: green;
+    height: 100px;
+    border: 1px solid black;
+}
+/* contact_me */
+.debug .debug_contact_me .debug_container{
+    background-color: purple;
+    height: 350px;
+}
+
+
+/* FOOTER */
+
+/* info */
+.debug .debug_info .debug_col{
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+}
+/* ending */
+.debug .debug_ending .debug_container{
+    height: 100px;
+    background-color: blue;
+}
+
