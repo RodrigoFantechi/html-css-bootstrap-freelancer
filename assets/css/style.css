@@ -26,6 +26,25 @@ img{
 .bg_primary{
     background-color: var(--bf-primary);
 }
+.cl_primary{
+    color: var(--bf-primary);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.my_circle{
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 /* #endregion UTILITIES */
 
 /* #region HEADER-NAVBAR */
@@ -56,6 +75,14 @@ nav{
 
 /* #endregion MAIN*/
 
+/* #region FOOTER */
+.info{
+    background-color: var(--bf-secondary);
+}
+.ending{
+    background-color: var(--bf-secondary-dark);
+}
+/* #endregion FOOTER */
 
 /* #region DEBUG */
 
