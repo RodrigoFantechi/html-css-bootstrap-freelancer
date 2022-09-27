@@ -5,9 +5,26 @@
 --bf-secondary-dark: #2d3e51;
 --bf-secondary:#3b546c;
 --bf-light:white;
+--bf-dark-detail:#2C3E50;
+}
+img{
+    max-width: 100%;
+}
+/* #endregion COMMON RULES */
+
+/* #region UTILITIES */
+
+.line_star{
+    width: 10%;
+    border: 1px solid;
+    display: inline-block;
+    margin: 0 1rem;
+}
+.icon_star *{
+    vertical-align: middle;
 }
 
-/* #endregion COMMON RULES */
+/* #endregion UTILITIES */
 
 /* #region HEADER-NAVBAR */
 nav{
@@ -26,14 +43,7 @@ nav{
     background-color: var(--bf-primary);
 }
 
-.line_star{
-    width: 15%;
-    border: 1px solid;
-    display: inline-block
-}
-.icon_star *{
-    vertical-align: middle;
-}
+
 /* #endregion JUMBOTRON */
 
 
