@@ -1,3 +1,49 @@
+/* #region COMMON RULES */
+:root{
+--bf-primary: #1abd9d;
+--bf-dark: black;
+--bf-secondary-dark: #2d3e51;
+--bf-secondary:#3b546c;
+--bf-light:white;
+}
+
+/* #endregion COMMON RULES */
+
+/* #region HEADER-NAVBAR */
+nav{
+    background-color: var(--bf-secondary-dark);
+}
+/* #endregion HEADER-NAVBAR */
+
+/* #region MAIN*/
+
+/* #region JUMBOTRON */
+
+.jumbotron img{
+    max-width: 250px;
+}
+.jumbotron{
+    background-color: var(--bf-primary);
+}
+
+.line_star{
+    width: 15%;
+    border: 1px solid;
+    display: inline-block
+}
+.icon_star *{
+    vertical-align: middle;
+}
+/* #endregion JUMBOTRON */
+
+
+/* #endregion MAIN*/
+
+
+
+
+/* #region DEBUG */
+
 
 /************  
 DEBUG
@@ -94,3 +140,4 @@ DEBUG
     background-color: blue;
 }
 
+/* #endregion DEBUG */
