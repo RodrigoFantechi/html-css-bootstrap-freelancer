@@ -33,17 +33,23 @@ img{
 .icons{
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 .my_circle{
     width: 40px;
-    height: 40px;
+    aspect-ratio: 1/1;
     border: 1px solid;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+.px-6{
+    padding: 0 12%;
+}
+
+.cl_dark_detail{
+    color: var(--bf-dark-detail);
 }
 /* #endregion UTILITIES */
 
@@ -63,7 +69,6 @@ nav{
 .jumbotron{
     background-color: var(--bf-primary);
 }
-
 
 /* #endregion JUMBOTRON */
 
