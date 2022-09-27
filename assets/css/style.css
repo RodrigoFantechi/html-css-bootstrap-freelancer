@@ -18,12 +18,14 @@ img{
     width: 10%;
     border: 1px solid;
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0 0.75rem;
 }
 .icon_star *{
     vertical-align: middle;
 }
-
+.bg_primary{
+    background-color: var(--bf-primary);
+}
 /* #endregion UTILITIES */
 
 /* #region HEADER-NAVBAR */
@@ -53,8 +55,6 @@ nav{
 /* #endregion ABOUT */
 
 /* #endregion MAIN*/
-
-
 
 
 /* #region DEBUG */
