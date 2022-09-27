@@ -46,6 +46,11 @@ nav{
 
 /* #endregion JUMBOTRON */
 
+/* #region ABOUT */
+.about{
+    background-color: var(--bf-primary);
+}
+/* #endregion ABOUT */
 
 /* #endregion MAIN*/
 
